@@ -5,8 +5,10 @@ body, html {
   font-family: 'JetBrains Mono';
 }
 
+
+
 .page1 {
-  background-image: url('img/2.png');
+  background-image: url('img/1.png');
   background-size: cover;
   background-position: center;
   height: 100vh;  
@@ -20,7 +22,24 @@ body, html {
   color: white;
   font-size: 55px;
   font-weight: bolder;
+  position: absolute;
+}
 
+.page1 p {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  position: relative;
+  margin-bottom: 38%;
+  margin-right: 70%;
+  white-space: nowrap;
+}
+
+.page1 img {
+  position: absolute;
+  width: 130px;
+  margin-bottom: 36%;
+  margin-right: 81%;
 }
 
 .inscreva {
@@ -29,7 +48,7 @@ body, html {
   position: absolute;
   margin-top: 260px;
   font-weight: bolder;
-  background-color: rgb(255, 255, 0);
+  background-color: #f9ef23;
   border: none;
   border-radius: 12px;
   padding: 10px 12px;
@@ -39,6 +58,235 @@ body, html {
 }
 
 .inscreva:hover {
-  background-color: rgb(175, 175, 29);
+  background-color: #b9b11a;
   color: white;
 }
+
+
+
+
+.page2 {
+  background-color: #141414;
+  height: 100vh;  
+  display: flex; 
+  color: white;
+}
+
+.page2 h2 {
+  color: #f9ef23;
+  font-size: 45px;
+  margin: 15px;
+  padding: 15px;
+  margin-top: 100px;
+  font-weight: bolder;
+  text-wrap: nowrap;
+  position: relative;
+}
+
+.page2 p {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: justify;
+  width: 45%;
+  line-height: 1.8;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 28px;
+}
+
+.page2 .img1 img {
+  width: 250px;
+  height: 350px;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 65px;
+  margin-left: 390px;
+}
+
+.page2 .img2 img {
+  width: 250px;
+  height: 350px;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+.page3 {
+  background-color: #141414;
+  height: 100vh;  
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.page3 h2 {
+  color: #f9ef23;
+  font-size: 45px;
+  margin: 10px;
+  padding: 15px;
+  margin-top: 70px;
+  font-weight: bolder;
+  text-wrap: nowrap;
+  position: relative;
+}
+
+.page3 .treinamento h3 {
+  color: #f9ef23;
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+  margin-top: 1%;
+  font-weight: bolder;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.page3 .treinamento p {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: justify;
+  width: 35%;
+  line-height: 1.2;
+  position: absolute;
+  margin-top:  5%;
+  margin-left: 28px;
+}
+
+
+.page3 .aulasemgrupo h3 {
+  color: #f9ef23;
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+  margin-top: 12%;
+  font-weight: bolder;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.page3 .aulasemgrupo p {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: justify;
+  width: 35%;
+  line-height: 1.2;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 28px;
+}
+
+
+.page3 .consultoria h3 {
+  color: #f9ef23;
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+  margin-top: 1%;
+  font-weight: bolder;
+  position: absolute;
+  margin-left: 59%;
+}
+
+.page3 .consultoria p {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: justify;
+  width: 35%;
+  line-height: 1.2;
+  position: absolute;
+  margin-top:  5%;
+  margin-left: 60%;
+}
+
+
+.page3 .avaliacao h3 {
+  color: #f9ef23;
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+  margin-top: 12%;
+  font-weight: bolder;
+  position: absolute;
+  margin-left: 59%;
+}
+
+.page3 .avaliacao p {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: justify;
+  width: 35%;
+  line-height: 1.2;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 60%;
+}
+
+
+
+
+
+.page4 { 
+  background-color: #141414;
+  height: 100vh;  
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.page4 h2 {
+  color: #f9ef23;
+  font-size: 45px;
+  margin: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-right: 35%;
+  font-weight: bolder;
+  text-wrap: nowrap;
+  position: absolute;
+}
+
+.box {
+  background-color: #f9ef23;
+  border: none;
+  border-radius: 25px;
+  width: 250px;
+  height: 350px;
+  margin: 25px;
+  margin-top: 145px;
+  position: relative;
+  text-align: center;
+  padding: 15px;
+}
+
+.box h3 {
+  color: black;
+  padding: 15px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.box p {
+  margin: 0;
+  color: black;
+  font-weight: bolder;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 65px;
+}
+
+.box .preco {
+  color: black;
+  padding: 15px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 90px;
+}
+
